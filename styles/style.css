@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    width: 1200px;
+    margin: auto;
+}
+/* banner section */
+.top-banner{
+    margin-top: 40px;
+}
+.banner{
+    display: flex;
+    margin: auto;
+    background-color: #161616;
+    height: 342px;
+    padding: 30px 30px 0px 35px;
+    border-radius: 10px;
+}
+.half-width h1{
+    font-size: 32px;
+    color: white;
+    font-weight: 700;
+}
+.half-width p{
+    color: #999999;
+}
+.half-width a{
+    text-decoration: none;
+    background: #DD0000;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-size: 12px;
+}
+.half-width a:hover{
+    background-color: green;
+    font-size: 15px;
+}
+/* schedule section */
+/* left */
+.match-schedule{
+    margin-top: 80px;
+}
+.match{
+    display: flex;
+    /* width: 900px; */
+}
+.Left{
+    width: 300px;
+    height: 300px;
+    background-color: #161616;
+    border-radius: 10px;
+    margin-right: 15px;
+}
+.option{
+    margin: auto;
+    padding-top: 15px;
+    padding-right: 20px;
+}
+.upcoming{
+    width: 252px;
+    margin-top: 22px;
+    margin-left: 25px;
+    height: 60px;
+    background-color: white;
+    border-radius: 10px;
+    padding-top: 6px;
+    font-weight: 700;
+}
+.upcoming p{
+    text-align: center;
+}
+.group{
+    width: 252px;
+    margin-top: 22px;
+    margin-left: 25px;
+    height: 60px;
+    background-color: white;
+    border-radius: 10px;
+    padding-top: 6px;
+    font-weight: 700;
+}
+.group p{
+text-align: center;
+}
+.blog{
+    width: 252px;
+    margin-top: 22px;
+    margin-left: 25px;
+    height: 60px;
+    border-radius: 10px;
+    padding-top: 6px;
+    font-weight: 700;
+    background-color: #DD0000;
+}
+.blog p{
+    text-align: center;
+}
+.blog a{
+    color: white;
+    text-decoration: none;
+}
+/* right */
+.boxes{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 8px;
+    grid-row-gap: 10px;
+}
+.box{
+    width: 288px;
+    height: 230px;
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+}
+.flag{
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+}
+.image-1{
+    margin-right: 20px;
+}
+.image-2{
+    margin-left: 20px;
+}
+.name-title{
+    text-align: center;
+}
+
+
+/* footer */
+footer{
+    height: 300px;
+    background-color: #161616;
+    color: white;
+    margin-top: 100px;
+}
+footer h1{
+    text-align: center;
+    padding-top: 55px;
+    padding-bottom: 26px;
+}
+hr{
+    width: 1100px;
+    color: rgb(151, 133, 133);
+    margin-top: 18px;
+}
+nav{
+    margin-top: 60px;
+}
+nav ul{
+    text-align: center;
+}
+ul li{
+    display: inline;
+    margin-right: 60px;
+    font-size: 12px;
+}
